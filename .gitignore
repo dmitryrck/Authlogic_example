@@ -1,0 +1,8 @@
+*.sqlite3
+*.swp
+*.swo
+log/*
+tmp/*
+.DS_Store
+._.DS_Store
+config/database.yml
