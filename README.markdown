@@ -294,7 +294,6 @@ E criar o primeiro usuário.
     cpd102[pts/0]% ./script/console
     Loading development environment (Rails 2.3.3)
     >> User.create!(:login => "usuario", :name => "Primeiro Usuario", :email => "mail@valido.com", :password => "senha", :password_confirmation => "senha", :active => true)
-=> #<User id: 1, login: "usuario", name: "Primeiro Usuario", email: "mail@valido.com", crypted_password: "0ab834ca00acc9ec3ff90d3c1fb83ff753a8b504f619c89d7f6...", password_salt: "qBCd39TzjTInLtl4sZsS", persistence_token: "816d2cb216602fd78dbae61dc4963b79e55a034fac32427bca7...", login_count: nil, last_request_at: nil, last_login_at: nil, current_login_at: nil, last_login_ip: nil, current_login_ip: nil, active: nil, created_at: "2009-07-24 12:55:58", updated_at: "2009-07-24 12:55:58">
-
+    => #<User id: 1, login: "usuario", name: "Primeiro Usuario", email: "mail@valido.com", crypted_password: "0ab834ca00acc9ec3ff90d3c1fb83ff753a8b504f619c89d7f6...", password_salt: "qBCd39TzjTInLtl4sZsS", persistence_token: "816d2cb216602fd78dbae61dc4963b79e55a034fac32427bca7...", login_count: nil, last_request_at: nil, last_login_at: nil, current_login_at: nil, last_login_ip: nil, current_login_ip: nil, active: nil, created_at: "2009-07-24 12:55:58", updated_at: "2009-07-24 12:55:58">
 
 Conforme fiz guardei o projeto e coloquei em [http://github.com/dmitrynix/Authlogic_example](http://github.com/dmitrynix/Authlogic_example).
